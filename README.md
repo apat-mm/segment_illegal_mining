@@ -1,7 +1,6 @@
 # Detección y segmentación de minería ilegal 
-#### Elaborado por:
-###### Kevin Artunduaga @VinkeArtunduaga
-###### Angie Manzano @apat-mm
+###### _Elaborado por:  Kevin Artunduaga Vivas - Angie Manzano Meléndez_
+
 
 ## Contexto
 
@@ -10,6 +9,7 @@ La minería ilegal representa uno de los más grandes desafíos en Colombia, con
 El objetivo principal del siguiente proyecto se basa en desarrollar un sistema de detección automatizada de patrones de minería ilegal especialmente en imágenes aéreas. Como resultado este sistema podría ayudar a las autoridades y organizaciones ambientales a identificar las actividades mineras ilegales, aportando a la conservación del medio ambiente y la protección de los derechos humanos.
 
 ## Data
+
 
 
 ## Requisitos 

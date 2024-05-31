@@ -44,9 +44,11 @@ Teniendo como datos de entrenamiento las siguientes imagenes:
    | [![illegal-mining-0665.jpg](https://i.postimg.cc/sgzfc1CW/illegal-mining-0665.jpg)](https://postimg.cc/PP6kfXxf) | <img src="https://i.postimg.cc/8zjRD1Cj/Captura.jpg" alt="Perro" width="256" height="256"/> |
    
 </div>
+<br>
 
 ## Arquitectura YoloV8
 
+![arq](https://miro.medium.com/v2/resize:fit:1400/1*YkkGwFBksWVbm4GmZfSDsg.jpeg)
 
 ## Requisitos 
 

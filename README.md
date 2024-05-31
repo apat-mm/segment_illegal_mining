@@ -50,7 +50,11 @@ Teniendo como datos de entrenamiento las siguientes imagenes:
 
 La principal ventaja de las arquitecturas Yolo (You Only Look Once) es la velocidad ya que no necesitan una arquitectura o estructura compleja a diferencia de otras.
 
+<br>
+
 __FPN:__ Feature Pyramid Network (Red de piramide de caracteristicas)
+
+<br>
 
 La red se divide en las siguientes partes:
 - Backbone --> Extractor de caracteristicas
@@ -63,9 +67,12 @@ La red se divide en las siguientes partes:
 
 Si desea realizar el entrenamieno del modelo por su cuenta, ejecute los comando que se encuentran en el notebook llamado [segmentation_illegalMining.ipynb](https://github.com/apat-mm/segment_illegal_mining/blob/main/segmentation_illegalMining.ipynb). Siga todos los pasos en el orden que se encuentran.
 
->[!Tip]
+<br>
+
+>[!Note]
 >Para realizar el entrenamiento es necesario utilizar la T4 GPU que ofrece Google Colab. Para ello dirjase a `Entorno de ejecución` despues a `Cambiar tipo de entorno de ejecución` y seleccione la opción de `T4 GPU`
 
+<br>
 
 
 ## Requisitos 

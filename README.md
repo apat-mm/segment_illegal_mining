@@ -7,7 +7,7 @@ Antes de comenzar asegurate de tener instalados los siguientes componentes:
 - Si es posible prepara un entorno virtual.
 - Python, lo mas recomendable es que sea la ultima version.
 
-### En caso de corer el despliegue (deploy.py):
+### En caso de correr el despliegue (deploy.py):
 
 1. Instala las siguientes librerias
    ```bash

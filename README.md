@@ -1,4 +1,7 @@
 # segment_illegal_mining
+Integrantes:
+- Kevin Artunduaga
+- Angie Manzano
 
 ## Requisitos 
 

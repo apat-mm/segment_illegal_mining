@@ -10,7 +10,19 @@ El objetivo principal del siguiente proyecto se basa en desarrollar un sistema d
 
 ## Data
 
+El conjunto de imagenes seleccionado para realizar el modelo de detección y segmentación fue el dataset del proyecto [__AmazonCRIME 2022__](https://github.com/jp-geoAI/AmazonCRIME) el cual realiza la creación de un conjunto de datos de Inteligencia Artificial Geoespacial y punto de referencia para la clasificación de áreas potenciales vinculadas a crímenes ambientales transnacionales en la selva amazónica. Tiene datasets para diferentes crimenes como:
+- Deforestación
+- Cultivos ilícitos
+- __Minería ilegal__
 
+El dataset de interes que cumple con el contexto del proyecto es el de minería ilegal, el cual tiene las siguientes caracteristicas:
+<div align="center">
+   
+   | Caracteristicas  | Ejemplo imagenes |
+   | ------------- | ------------- |
+   | - 5000 imagenes en total<br>- Capturadas entre el años 2017 y 2019<br>- 256 x 256 pixeles<br>- De origen satelital pero procesadas para mejor manejo | ![mina](https://i.postimg.cc/ZCXv9c9Q/illegal-mining-0768.jpg)|
+   
+</div>
 
 ## Requisitos 
 

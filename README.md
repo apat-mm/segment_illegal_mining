@@ -48,6 +48,15 @@ Teniendo como datos de entrenamiento las siguientes imagenes:
 
 ## Arquitectura YoloV8
 
+La principal ventaja de las arquitecturas Yolo (You Only Look Once) es la velocidad ya que no necesitan una arquitectura o estructura compleja a diferencia de otras.
+
+__FPN:__ Feature Pyramid Network (Red de piramide de caracteristicas)
+
+La red se divide en las siguientes partes:
+- Backbone --> Extractor de caracteristicas
+- ¿Neck? --> Operaciones de fusión y concatenación
+- Head --> Generación de bounding boxes
+
 ![arq](https://miro.medium.com/v2/resize:fit:1400/1*YkkGwFBksWVbm4GmZfSDsg.jpeg)
 
 ## Requisitos 

@@ -59,6 +59,15 @@ La red se divide en las siguientes partes:
 
 ![arq](https://miro.medium.com/v2/resize:fit:1400/1*YkkGwFBksWVbm4GmZfSDsg.jpeg)
 
+## Entrenamiento
+
+Si desea realizar el entrenamieno del modelo por su cuenta, ejecute los comando que se encuentran en el notebook llamado [segmentation_illegalMining.ipynb](https://github.com/apat-mm/segment_illegal_mining/blob/main/segmentation_illegalMining.ipynb). Siga todos los pasos en el orden que se encuentran.
+
+>[!Tip]
+>Para realizar el entrenamiento es necesario utilizar la T4 GPU que ofrece Google Colab. Para ello dirjase a `Entorno de ejecución` despues a `Cambiar tipo de entorno de ejecución` y seleccione la opción de `T4 GPU`
+
+
+
 ## Requisitos 
 
 Antes de comenzar asegurate de tener instalados los siguientes componentes:

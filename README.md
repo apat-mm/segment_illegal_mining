@@ -11,18 +11,42 @@ El objetivo principal del siguiente proyecto se basa en desarrollar un sistema d
 ## Data
 
 El conjunto de imagenes seleccionado para realizar el modelo de detección y segmentación fue el dataset del proyecto [__AmazonCRIME 2022__](https://github.com/jp-geoAI/AmazonCRIME) el cual realiza la creación de un conjunto de datos de Inteligencia Artificial Geoespacial y punto de referencia para la clasificación de áreas potenciales vinculadas a crímenes ambientales transnacionales en la selva amazónica. Tiene datasets para diferentes crimenes como:
+- Pistas de aterrizaje
 - Deforestación
-- Cultivos ilícitos
-- __Minería ilegal__
+- Forestación
+- __Mineria ilegal__
+- Cultivos ilicitos
+- Agua
 
-El dataset de interes que cumple con el contexto del proyecto es el de minería ilegal, el cual tiene las siguientes caracteristicas:
+<br>
+
+Este dataset contaba con 5000 imagenes a partir de la mineria ilegal, sin embargo al contar con demasiadas imagenes se hizo la anotacion o labeling de 1053 imagenes de 256 x 256 pixeles para realizar el debido etiquetado de las clases, las cuales son:
+
+<br>
+
 <div align="center">
    
-   | Caracteristicas  | Ejemplo imagenes |
+   | Clase  | Descripción |
    | ------------- | ------------- |
-   | - 5000 imagenes en total<br>- Capturadas entre el años 2017 y 2019<br>- 256 x 256 pixeles<br>- De origen satelital pero procesadas para mejor manejo | ![mina](https://i.postimg.cc/ZCXv9c9Q/illegal-mining-0768.jpg)|
+   | illegal-mining | Área donde se realizan actividades de minería ilegal. |
+   | toxic-pool | Una piscina tóxica es el agua contaminada con productos químicos o desechos industriales por la mineria. |
+   | river | Avistamientos de rios o lagos cercas. |
    
 </div>
+<br>
+
+Teniendo como datos de entrenamiento las siguientes imagenes:
+
+<div align="center">
+   
+   | Imagen original  | Imagen para entrenamiento |
+   | ------------- | ------------- |
+   | [![illegal-mining-0665.jpg](https://i.postimg.cc/sgzfc1CW/illegal-mining-0665.jpg)](https://postimg.cc/PP6kfXxf) | <img src="https://i.postimg.cc/8zjRD1Cj/Captura.jpg" alt="Perro" width="256" height="256"/> |
+   
+</div>
+
+## Arquitectura YoloV8
+
 
 ## Requisitos 
 
